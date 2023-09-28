@@ -69,6 +69,7 @@ nav a {
 #projetos {
 
     padding: 20px;
+    background-color: #cd5c5c;
 
 }
 
@@ -76,9 +77,9 @@ nav a {
 
 footer {
 
-    background-color: #333;
+    background-color: #FFDAB9;
 
-    color: #CD5C5C;
+    color: #800000;
 
     text-align: center;
 
@@ -95,4 +96,27 @@ footer {
     border-radius: 50%;
 
 }
+
+/* Estilo base para o botão */
+.meu-botao {
+    background-color: #FFDAB9; /* Cor de fundo */
+    color: #800000; /* Cor do texto */
+    border: none; /* Remover a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Ícone de cursor de mão em cima do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo quando o mouse passa por cima do botão */
+.meu-botao:hover {
+    background-color: #FFDAB9; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo quando o botão é clicado */
+.meu-botao:active {
+    background-color: #FFDAB9; /* Cor de fundo quando clicado */
+}
+
 
