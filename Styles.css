@@ -141,38 +141,9 @@ body {
   line-height: 0.5px;
 }
 
-/* Estilos para dispositivos móveis */
-
+/* Redimensionar imagens em dispositivos com largura de tela menor que 768px */
 @media (max-width: 768px) {
-
-    nav ul {
-
-        text-align: center;
-
-    }
-
-    
-
-    nav ul li {
-
-        display: block;
-
-        margin: 10px 0;
-
-    }
-
-}
-
-
-.redes-imagem {
-  height: 60px;
-  margin: 0 auto;
-  border-radius: 50px;
-}
-
-.meusprojetosletra {
-  font-family: 'Sarala', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: #CD5C5C;
+  img {
+    max-width: 80%; /* Por exemplo, redimensionar para 80% da largura do contêiner */
   }
+}
