@@ -141,6 +141,29 @@ body {
   line-height: 0.5px;
 }
 
+/* Estilos para dispositivos móveis */
+
+@media (max-width: 768px) {
+
+    nav ul {
+
+        text-align: center;
+
+    }
+
+    
+
+    nav ul li {
+
+        display: block;
+
+        margin: 10px 0;
+
+    }
+
+}
+
+
 .redes-imagem {
   height: 60px;
   margin: 0 auto;
