@@ -141,9 +141,25 @@ body {
   line-height: 0.5px;
 }
 
-/* Redimensionar imagens em dispositivos com largura de tela menor que 768px */
+/* Estilos para dispositivos móveis */
+
 @media (max-width: 768px) {
-  img {
-    max-width: 80%; /* Por exemplo, redimensionar para 80% da largura do contêiner */
-  }
+
+    nav ul {
+
+        text-align: center;
+
+    }
+
+    
+
+    nav ul li {
+
+        display: block;
+
+        margin: 10px 0;
+
+    }
+
 }
+
