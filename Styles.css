@@ -1,3 +1,15 @@
+/* Estilos para as colunas */
+.profile-photo-container {
+    float: left; /* Coloca a foto à esquerda */
+    width: 50%; /* Divide a largura igualmente com a coluna de logo */
+}
+
+.profile-logo-container {
+    float: left; /* Coloca a logo à direita */
+    width: 50%; /* Divide a largura igualmente com a coluna de foto */
+}
+
+
 /* Definindo um esquema de cores com rosa pastel e preto */
 .black-pink {
     background-color: #000;
