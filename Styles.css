@@ -55,6 +55,8 @@
 .footer-photo {
     display: block; /* Exibe a foto de rodapé em bloco */
     margin: 0 auto; /* Centraliza a foto de rodapé */
+    width: 100px; /* Largura da sua logo */
+    border-radius: 50%
 }
 
 /* Adicione as regras CSS abaixo ao seu arquivo de estilos para tornar o site responsivo */
