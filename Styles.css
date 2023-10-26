@@ -1,122 +1,78 @@
-/* Estilos gerais */
-
-body {
-
-    font-family: Arial, sans-serif;
-
-    margin: 0;
-
-    padding: 0;
-  
-    color: #800000;
-
+/* Definindo um esquema de cores com rosa pastel e preto */
+.black-pink {
+    background-color: #000;
+    color: #ffaec0; /* Rosa pastel */
 }
 
-header {
-
-    background-color: #FFDAB9;
-
-    color: #800000;
-
-    padding: 20px;
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-
-}
-
-nav ul {
-
-    list-style-type: none;
-
-    padding: 0;
-
-    display: flex;
-
-}
-
-nav li {
-
-    margin-right: 20px;
-
-}
-
-nav a {
-
-    text-decoration: none;
-
-    color: #800000;
-
-}
-
-.profile img {
-
-    width: 100px;
-
-    height: 100px;
-
-    border-radius: 50%;
-
-    margin-right: 20px;
-
-}
-
-/* Estilos para a seção de projetos (personalize conforme necessário) */
-
-#projetos {
-
-    padding: 20px;
-    background-color: #cd5c5c;
-
-}
-
-/* Estilos para o rodapé */
-
-footer {
-
-    background-color: #FFDAB9;
-
-    color: #800000;
-
+.profile-header {
     text-align: center;
-
-    padding: 10px;
-
 }
 
-.logo img {
-
-    width: 50px;
-
-    height: 50px;
-
-    border-radius: 50%;
-
+.profile-photo {
+    border-radius: 50%; /* Para criar uma foto de perfil redonda */
+    border: 5px solid #ffaec0; /* Borda rosa pastel */
 }
 
-/* Estilo base para o botão */
-.meu-botao {
-    background-color: #FFDAB9; /* Cor de fundo */
-    color: #800000; /* Cor do texto */
-    border: none; /* Remover a borda padrão */
-    padding: 10px 20px; /* Espaçamento interno */
-    border-radius: 5px; /* Cantos arredondados */
-    cursor: pointer; /* Ícone de cursor de mão em cima do botão */
-    font-size: 16px; /* Tamanho da fonte */
-    font-family: Arial, sans-serif;
+.profile-logo {
+    width: 100px; /* Largura da sua logo */
 }
 
-/* Estilo quando o mouse passa por cima do botão */
-.meu-botao:hover {
-    background-color: #FFDAB9; /* Cor de fundo ao passar o mouse */
+.social-buttons {
+    text-align: center;
 }
 
-/* Estilo quando o botão é clicado */
-.meu-botao:active {
-    background-color: #FFDAB9; /* Cor de fundo quando clicado */
+.linkedin-button, .github-button {
+    width: 50px; /* Largura dos botões de mídia social */
+    margin: 10px; /* Espaçamento entre os botões */
 }
 
+.bio {
+    padding: 20px; /* Espaçamento interno */
+}
 
+.projects {
+    padding: 20px; /* Espaçamento interno */
+}
+
+.project {
+    border: 1px solid #ffaec0; /* Borda rosa pastel para os projetos */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Espaçamento entre os projetos */
+}
+
+.project-link {
+    background-color: #ffaec0; /* Cor de fundo rosa pastel para os links */
+    color: #000; /* Cor do texto em preto */
+    padding: 5px 10px; /* Espaçamento interno */
+    text-decoration: none;
+}
+
+.project-link:hover {
+    background-color: #ff87a3; /* Cor de fundo rosa pastel mais escura quando hover */
+}
+
+.footer-photo {
+    display: block; /* Exibe a foto de rodapé em bloco */
+    margin: 0 auto; /* Centraliza a foto de rodapé */
+}
+
+/* Adicione as regras CSS abaixo ao seu arquivo de estilos para tornar o site responsivo */
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    .profile-photo {
+        width: 150px; /* Ajuste o tamanho da foto de perfil */
+        border-width: 3px; /* Reduza a largura da borda */
+    }
+
+    .project {
+        padding: 10px; /* Aumente o espaçamento interno dos projetos */
+    }
+
+    .project-link {
+        font-size: 14px; /* Reduza o tamanho da fonte dos links */
+        padding: 3px 8px; /* Reduza o espaçamento interno dos links */
+    }
+}
+
+/* Outras regras de estilo para dispositivos maiores (desktop) aqui */
