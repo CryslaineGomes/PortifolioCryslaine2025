@@ -62,21 +62,37 @@
 
 /* Adicione as regras CSS abaixo ao seu arquivo de estilos para tornar o site responsivo */
 
-/* Estilo para dispositivos móveis */
-@media (max-width: 768px) {
+/* Estilos para desktop */
+@media (min-width: 769px) {
     .profile-photo {
-        width: 150px; /* Ajuste o tamanho da foto de perfil */
-        border-width: 3px; /* Reduza a largura da borda */
+        width: 200px; /* Ajuste o tamanho da foto de perfil para desktop */
+        border-width: 5px; /* Aumente a largura da borda */
     }
 
     .project {
-        padding: 10px; /* Aumente o espaçamento interno dos projetos */
+        padding: 20px; /* Aumente o espaçamento interno dos projetos para desktop */
     }
 
     .project-link {
-        font-size: 14px; /* Reduza o tamanho da fonte dos links */
-        padding: 3px 8px; /* Reduza o espaçamento interno dos links */
+        font-size: 16px; /* Aumente o tamanho da fonte dos links para desktop */
+        padding: 10px 20px; /* Aumente o espaçamento interno dos links para desktop */
     }
 }
 
-/* Outras regras de estilo para dispositivos maiores (desktop) aqui */
+/* Estilos para dispositivos móveis (já fornecidos anteriormente) */
+@media (max-width: 768px) {
+    .profile-photo {
+        width: 150px;
+        border-width: 3px;
+    }
+
+    .project {
+        padding: 10px;
+    }
+
+    .project-link {
+        font-size: 14px;
+        padding: 3px 8px;
+    }
+}
+
