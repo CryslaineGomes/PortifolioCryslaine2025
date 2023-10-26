@@ -11,6 +11,7 @@
 .profile-photo {
     border-radius: 50%; /* Para criar uma foto de perfil redonda */
     border: 5px solid #ffaec0; /* Borda rosa pastel */
+    width: 100px;
 }
 
 .profile-logo {
