@@ -1,7 +1,7 @@
 /* Estilos para as colunas */
 .profile-photo-container {
     float: left; /* Coloca a foto à esquerda */
-    width: 50%; /* Divide a largura igualmente com a coluna de logo */
+    width: 10%; /* Divide a largura igualmente com a coluna de logo */
 }
 
 .profile-logo-container {
@@ -59,6 +59,7 @@
     color: #000; /* Cor do texto em preto */
     padding: 5px 10px; /* Espaçamento interno */
     text-decoration: none;
+    margin: 10px;
 }
 
 .project-link:hover {
