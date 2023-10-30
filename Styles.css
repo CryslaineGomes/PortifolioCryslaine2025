@@ -1,7 +1,7 @@
 /* Estilos para as colunas */
 .profile-photo-container {
     float: left; /* Coloca a foto à esquerda */
-    width: 10%; /* Divide a largura igualmente com a coluna de logo */
+    width: 50%; /* Divide a largura igualmente com a coluna de logo */
 }
 
 .profile-logo-container {
@@ -21,7 +21,7 @@
 }
 
 .profile-photo {
-    border-radius: 50%; /* Para criar uma foto de perfil redonda */
+    border-radius: 10%; /* Para criar uma foto de perfil redonda */
     border: 5px solid #ffaec0; /* Borda rosa pastel */
     width: 100px;
 }
@@ -59,7 +59,6 @@
     color: #000; /* Cor do texto em preto */
     padding: 5px 10px; /* Espaçamento interno */
     text-decoration: none;
-    margin: 10px;
 }
 
 .project-link:hover {
