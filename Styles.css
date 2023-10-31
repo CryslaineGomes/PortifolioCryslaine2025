@@ -27,3 +27,114 @@ body {
 .black-pink {
 
     background-color: #000;
+
+/* Estilos para as colunas */
+.profile-photo-container {
+    float: left; /* Coloca a foto à esquerda */
+    width: 50%; /* Divide a largura igualmente com a coluna de logo */
+}
+
+.profile-logo-container {
+    float: left; /* Coloca a logo à direita */
+    width: 50%; /* Divide a largura igualmente com a coluna de foto */
+}
+
+
+/* Definindo um esquema de cores com rosa pastel e preto */
+.black-pink {
+    background-color: #000;
+    color: #ffaec0; /* Rosa pastel */
+}
+
+.profile-header {
+    text-align: center;
+}
+
+.profile-photo {
+    border-radius: 10%; /* Para criar uma foto de perfil redonda */
+    border: 5px solid #ffaec0; /* Borda rosa pastel */
+    width: 100px;
+}
+
+.profile-logo {
+    width: 100px; /* Largura da sua logo */
+    border-radius: 50%;
+}
+
+.social-buttons {
+    text-align: center;
+}
+
+.linkedin-button, .github-button {
+    width: 50px; /* Largura dos botões de mídia social */
+    margin: 10px; /* Espaçamento entre os botões */
+}
+
+.bio {
+    padding: 20px; /* Espaçamento interno */
+}
+
+.projects {
+    padding: 20px; /* Espaçamento interno */
+}
+
+.project {
+    border: 1px solid #ffaec0; /* Borda rosa pastel para os projetos */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Espaçamento entre os projetos */
+}
+
+.project-link {
+    background-color: #ffaec0; /* Cor de fundo rosa pastel para os links */
+    color: #000; /* Cor do texto em preto */
+    padding: 5px 10px; /* Espaçamento interno */
+    text-decoration: none;
+}
+
+.project-link:hover {
+    background-color: #ff87a3; /* Cor de fundo rosa pastel mais escura quando hover */
+}
+
+.footer-photo {
+    display: block; /* Exibe a foto de rodapé em bloco */
+    margin: 0 auto; /* Centraliza a foto de rodapé */
+    width: 100px; /* Largura da sua logo */
+    border-radius: 50%
+}
+
+/* Adicione as regras CSS abaixo ao seu arquivo de estilos para tornar o site responsivo */
+
+/* Estilos para desktop */
+@media (min-width: 769px) {
+    .profile-photo {
+        width: 200px; /* Ajuste o tamanho da foto de perfil para desktop */
+        border-width: 5px; /* Aumente a largura da borda */
+    }
+
+    .project {
+        padding: 20px; /* Aumente o espaçamento interno dos projetos para desktop */
+    }
+
+    .project-link {
+        font-size: 16px; /* Aumente o tamanho da fonte dos links para desktop */
+        padding: 10px 20px; /* Aumente o espaçamento interno dos links para desktop */
+    }
+}
+
+/* Estilos para dispositivos móveis (já fornecidos anteriormente) */
+@media (max-width: 768px) {
+    .profile-photo {
+        width: 150px;
+        border-width: 3px;
+    }
+
+    .project {
+        padding: 10px;
+    }
+
+    .project-link {
+        font-size: 14px;
+        padding: 3px 8px;
+    }
+}
+
