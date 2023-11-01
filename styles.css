@@ -1,3 +1,8 @@
+body {
+    background-color: 	#DCDCDC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* Definindo um esquema de cores com rosa pastel e preto */
 .black-pink {
     background-color: #000;
@@ -38,14 +43,14 @@
 }
 
 .project {
-    border: 1px solid #ffaec0; /* Borda rosa pastel para os projetos */
+    border: 1px solid #000; /* Borda rosa pastel para os projetos */
     padding: 10px; /* Espaçamento interno */
     margin: 10px 0; /* Espaçamento entre os projetos */
 }
 
 .project-link {
-    background-color: #ffaec0; /* Cor de fundo rosa pastel para os links */
-    color: #000; /* Cor do texto em preto */
+    background-color: #000; /* Cor de fundo rosa pastel para os links */
+    color: #DCDCDC; /* Cor do texto em preto */
     padding: 5px 10px; /* Espaçamento interno */
     text-decoration: none;
 }
@@ -100,6 +105,11 @@
 .profile-photo-container {
     float: left; /* Coloca a foto à esquerda */
     width: 50%; /* Divide a largura igualmente com a coluna de logo */
+}
+
+.profile-logo-container {
+    float: left; /* Coloca a logo à direita */
+    width: 50%; /* Divide a largura igualmente com a coluna de foto */
 }
 
 .profile-logo-container {
