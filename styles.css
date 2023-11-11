@@ -80,8 +80,8 @@ body {
 }
 
 .whatsapp-button img {
-    width: 30px; /* Ajuste o tamanho do ícone conforme necessário */
-    height: 30px; /* Ajuste o tamanho do ícone conforme necessário */
+    width: 60px; 
+    height: 60px; 
 }
 
 .whatsapp-button:hover {
