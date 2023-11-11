@@ -65,23 +65,6 @@ body {
     width: 50px; 
     margin: 10px;
 }
-
-
-@media (min-width: 769px) {
-    .profile-photo {
-        width: 200px; 
-        border-width: 5px; 
-    }
-
-    .project {
-        padding: 20px; 
-    }
-
-    .project-link {
-        font-size: 16px; 
-        padding: 10px 20px; 
-    }
-}
 .whatsapp-button {
     position: fixed;
     bottom: 20px;
@@ -99,6 +82,23 @@ body {
     width: 50px; 
     margin: 10px; 
 }
+
+@media (min-width: 769px) {
+    .profile-photo {
+        width: 200px; 
+        border-width: 5px; 
+    }
+
+    .project {
+        padding: 20px; 
+    }
+
+    .project-link {
+        font-size: 16px; 
+        padding: 10px 20px; 
+    }
+}
+
 
 .whatsapp-button:hover {
     background-color: #128C7E;
