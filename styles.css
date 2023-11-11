@@ -72,7 +72,7 @@ body {
     right: 20px;
     background-color: #25D366;
     color: #fff;
-    padding: 10px; /* Ajuste o padding conforme necessário */
+    padding: 20px; 
     border-radius: 50%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-decoration: none;
@@ -80,8 +80,8 @@ body {
 }
 
 .whatsapp-button img {
-    width: 60px; 
-    height: 60px; 
+    width: 40px; 
+    height: 40px; 
 }
 
 .whatsapp-button:hover {
