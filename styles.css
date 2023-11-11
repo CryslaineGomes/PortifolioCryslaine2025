@@ -77,9 +77,9 @@ body {
     text-decoration: none;
     transition: background-color 0.3s ease;
 
-    width: 10px;
+    width: 0.5px;
     border-radius: 50px;
-    width: 10px; 
+    width: 0.5px; 
     margin: 10px; 
 }
 
