@@ -65,18 +65,27 @@ body {
     width: 50px; 
     margin: 10px;
 }
+
 .whatsapp-button {
     position: fixed;
-    bottom: 15px;
+    bottom: 20px;
     right: 20px;
     background-color: #25D366;
     color: #fff;
-    padding: 15px;
+    padding: 10px; /* Ajuste o padding conforme necessário */
     border-radius: 50%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-decoration: none;
     transition: background-color 0.3s ease;
-    width: 15px;
+}
+
+.whatsapp-button img {
+    width: 30px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 30px; /* Ajuste o tamanho do ícone conforme necessário */
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
 }
 
 @media (min-width: 769px) {
