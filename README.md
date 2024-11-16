@@ -47,7 +47,6 @@ Você pode entrar em contato comigo pelos seguintes canais:
 
 - **LinkedIn**: [Cryslaine Pereira](https://www.linkedin.com/in/cryslaine-gomes-pereira-318ab61b6/)  
 - **GitHub**: [CryslaineGomes](https://github.com/CryslaineGomes)  
-- **WhatsApp**: [Converse comigo](https://api.whatsapp.com/send?phone=41987542551&text=Olá,%20gostaria%20de%20conversar!)  
 
 ---
 
