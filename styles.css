@@ -1,142 +1,154 @@
 body {
-    background-color: 	#DCDCDC;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.black-pink {
+    font-family: 'Arial', sans-serif;
     background-color: #000;
-    color: #ffaec0; /* Rosa pastel */
+    color: hwb(187 42% 0% / 0.952);
+    margin: 0;
+    padding: 0;
 }
 
-.profile-header {
-    text-align: center;
+header {
+    background-color: #000;
+    color: hwb(187 42% 0% / 0.952);
+    padding: 20px;
 }
 
-.profile-photo {
-    border-radius: 25%; 
-    border: 5px solid #ffaec0;
+.header-content {
+    display: flex;
+    align-items: center;
 }
 
-.profile-logo {
-    width: 100px;
-    border-radius: 50px;
-    width: 50px; 
-    margin: 10px; 
+.header-links {
+    margin-left: auto;
 }
 
-.social-buttons {
-    text-align: center;
-}
-
-.linkedin-button, .github-button {
-    width: 50px; 
-    margin: 10px; 
-}
-
-.bio {
-    padding: 20px; 
-}
-
-.projects {
-    padding: 20px; 
-}
-
-.project {
-    border: 1px solid #000; 
-    padding: 10px; 
-    margin: 10px 0; 
-}
-
-.project-link {
-    background-color: #000; 
-    color: #DCDCDC; 
-    padding: 5px 10px; 
+.round-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: 2px solid hwb(187 42% 0% / 0.952);
+    border-radius: 25px;
+    color: hwb(187 42% 0% / 0.952);
     text-decoration: none;
 }
 
-.project-link:hover {
-    background-color: #ff87a3; 
+.about-me,
+.projects,
+.download-resume {
+    padding: 50px;
 }
 
-.footer-photo {
-    display: block; 
-    margin: 0 auto; 
-    border-radius: 50px;
-    width: 50px; 
-    margin: 10px;
+.projects-container {
+    display: flex;
+    overflow-x: auto;
 }
 
-.whatsapp-button {
+.whatsapp-floating {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #25D366;
-    color: #fff;
-    padding: 10px; 
-    border-radius: 50%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 25%;
+    margin-right: 20px;
+}
+
+.round-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 2px solid hwb(187 42% 0% / 0.952);
+    border-radius: 25px;
+    color: hwb(187 42% 0% / 0.952);
     text-decoration: none;
+    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.whatsapp-button img {
-    width: 50px; 
-    height: 50px; 
-}
-
-.whatsapp-button:hover {
-    background-color: #128C7E;
-}
-
-@media (min-width: 769px) {
-    .profile-photo {
-        width: 200px; 
-        border-width: 5px; 
-    }
-
-    .project {
-        padding: 20px; 
-    }
-
-    .project-link {
-        font-size: 16px; 
-        padding: 10px 20px; 
-    }
+.round-button:hover {
+    background-color: hwb(187 42% 0% / 0.952);
+    color: hsl(0, 0%, 2%);
 }
 
 
-.whatsapp-button:hover {
-    background-color: #128C7E;
+
+/* Adicione estilos adicionais conforme necessário */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: hwb(187 42% 0% / 0.952);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: hwb(187 42% 0% / 0.952);
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    margin-left: auto;
+}
+
+.round-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: 2px solid hwb(187 42% 0% / 0.952);
+    border-radius: 25px;
+    color: hwb(187 42% 0% / 0.952);
+    text-decoration: none;
+}
+
+.about-me,
+.projects,
+.download-resume {
+    padding: 50px;
+}
+
+.projects-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.whatsapp-floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.profile-picture {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 25%;
+    margin-right: 20px;
+}
+
+.round-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 2px solid hwb(187 42% 0% / 0.952);
+    border-radius: 25px;
+    color: hwb(187 42% 0% / 0.952);
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.round-button:hover {
+    background-color: hwb(187 42% 0% / 0.952);
+    color: hsl(0, 0%, 2%);
 }
 
 
-@media (max-width: 768px) {
-    .profile-photo {
-        width: 150px;
-        border-width: 3px;
-    }
 
-    .project {
-        padding: 10px;
-    }
-
-    .project-link {
-        font-size: 14px;
-        padding: 3px 8px;
-    }
-}
-
-.profile-photo-container {
-    float: left;
-    width: 50%; 
-}
-
-.profile-logo-container {
-    float: left; 
-    width: 50%; 
-}
-
-.profile-logo-container {
-    float: left;
-    width: 50%;
-}
+/* Adicione estilos adicionais conforme necessário */
