@@ -3,18 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Dev Jr</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> <!-- Adicionando FontAwesome -->
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background-color: #0D1117;
+            color: #C9D1D9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        h2 {
+            color: #58A6FF;
+            margin-bottom: 10px;
+        }
+
+        header {
+            position: relative;
+            background-color: #161B22;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .cover-photo {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .profile-picture {
+            position: absolute;
+            top: 180px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 4px solid #0D1117;
+            background-color: #0D1117;
+        }
+
+        .header-links {
+            margin-top: 100px;
+        }
+
+        .round-button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #238636;
+            color: #FFFFFF;
+            border-radius: 20px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+
+        .round-button:hover {
+            background-color: #2EA043;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .carousel-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 0 0 300px;
+            padding: 20px;
+            border: 1px solid #30363D;
+            border-radius: 10px;
+            background-color: #161B22;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .card h3 {
+            color: #58A6FF;
+        }
+
+        .download-resume, .whatsapp-floating {
+            margin: 20px 0;
+        }
+
+        .download-resume a {
+            background-color: #238636;
+        }
+
+        .download-resume a:hover {
+            background-color: #2EA043;
+        }
+
+        footer {
+            background-color: #161B22;
+            color: #C9D1D9;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 20px;
+            border-top: 1px solid #30363D;
+        }
+
+        /* Estilos para o botão flutuante do WhatsApp */
+        .whatsapp-floating {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .whatsapp-floating a {
+            background-color: #25D366;
+            padding: 15px;
+            border-radius: 50%;
+            color: white;
+            font-size: 24px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-floating a:hover {
+            background-color: #128C7E;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <div class="header-content">
-            <img src="PSX_20230905_173258 1.jpg" alt="Sua Foto" class="profile-picture">
-            <div class="header-links">
-                <a href="https://www.linkedin.com/in/cryslaine-gomes-pereira-318ab61b6/" target="_blank" class="round-button">LinkedIn</a>
-                <a href="https://github.com/CryslaineGomes" target="_blank" class="round-button">GitHub</a>
-            </div>
+        <img src="Wallpaper.jpeg" alt="Foto de Capa" class="cover-photo">
+        <img src="PSX_20230905_173258 1.jpg" alt="Sua Foto" class="profile-picture">
+        <div class="header-links">
+            <a href="https://www.linkedin.com/in/cryslaine-gomes-pereira-318ab61b6/" target="_blank" class="round-button">LinkedIn</a>
+            <a href="https://github.com/CryslaineGomes" target="_blank" class="round-button">GitHub</a>
         </div>
     </header>
 
@@ -23,37 +155,67 @@
         <p>Sou apaixonada por tecnologia, sou formada em Gestão da Tecnologia da Informação. Tenho 12 anos no varejo, e atualmente estou tentando transição de carreira.</p>
 
         <h2>Idiomas</h2>
-        <p>Português: Nativo | Inglês: Nivel A2 | Japonês: Nivel N4 | Espanhol: Básico | Com certificados.</p>
+        <p>Português: Nativo | Inglês: Nível A2 | Japonês: Nível N4 | Espanhol: Básico | Com certificados.</p>
 
         <h2>Linguagens de Programação</h2>
         <p>Tenho conhecimentos básicos em: HTML, CSS, JavaScript, Python, SQL e Mobile.</p>
+    </section>
 
-        
+    <section class="quality-assurance">
+        <h2>Quality Assurance</h2>
+        <ul style="list-style-type: none; padding: 0;">
+            <li>✔️ Testes Manuais</li>
+            <li>✔️ Testes Automatizados</li>
+            <li>✔️ BDD (Behavior-Driven Development)</li>
+            <li>✔️ Teste de API</li>
+        </ul>
     </section>
 
     <section class="projects">
         <h2>Projetos</h2>
-        <div class="projects-container">
-            <h1>Download do App</h1>
-
-            <p>Clique no botão abaixo para baixar o aplicativo.</p>
-        
-            <a href="seu-arquivo.apk" download class="round-button">
-                Baixar App
-            </a>
-            <!-- Coloque seus projetos aqui -->
+        <div class="carousel-container">
+            <div class="card">
+                <h3>App Espada</h3>
+                <p>Marcador de pontos para jogo cartas de baralho (Espada), desenvolvido em linguagem Dart.</p>
+                <a href="Espada.apk" download class="round-button">Baixar APK</a>
+            </div>
+            <div class="card">
+                <h3>App Jogo Snake</h3>
+                <p>Tradicional jogo da cobrinha, desenvolvido em linguagem Dart.</p>
+                <a href="app2.apk" download class="round-button">Baixar APK</a>
+            </div>
+           <!-- <div class="card">
+                <h3>App Mobile 3</h3>
+                <p>Descrição breve do app mobile 3.</p>
+                <a href="app3.apk" download class="round-button">Baixar APK</a>
+            </div> -->
+            <div class="card">
+                <h3>Projeto Previsão do Tempo</h3>
+                <p>Projeto desenvolvido com HTML, CSS e JS, possui consumos de API.</p>
+                <a href="https://cerulean-druid-96646a.netlify.app/" target="_blank" class="round-button">Ver Projeto</a>
+            </div>
+            <div class="card">
+                <h3>Projeto Lista de Tarefas</h3>
+                <p>Projeto desenvolvido com HTML, CSS e JS. </p>
+                <a href="https://elegant-concha-079484.netlify.app/" target="_blank" class="round-button">Ver Projeto</a>
+            </div>
         </div>
     </section>
 
     <section class="download-resume">
-        <a href="Dev Junior - Cryslaine.pdf" download class="round-button">Download do Currículo</a>
+        <a href="Cryslaine Dev-QA.pdf" download class="round-button">Download do Currículo</a>
     </section>
 
+    <!-- Botão do WhatsApp fixado -->
     <div class="whatsapp-floating">
-        <a href="seu-link-do-whatsapp" target="_blank" class="round-button">WhatsApp</a>
+        <a href="https://wa.me/5541987542551?text=Vamos%20conversar!" target="_blank">
+            <i class="fab fa-whatsapp"></i> <!-- Ícone do WhatsApp -->
+        </a>
     </div>
 
-    <script src="script.js"></script>
+    <footer>
+        Desenvolvido por Cryslaine - Todos os direitos reservados
+    </footer>
+
 </body>
 </html>
-
