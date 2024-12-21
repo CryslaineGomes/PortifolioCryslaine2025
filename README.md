@@ -2,62 +2,56 @@
 
 Bem-vindo(a) ao meu portfólio! Aqui você encontrará projetos e informações sobre minha trajetória na transição de carreira para o desenvolvimento e QA.
 
-## 🎯 Sobre Mim
+## 🚀 Tecnologias Utilizadas
 
-Sou apaixonada por tecnologia e formada em **Gestão da Tecnologia da Informação**. Após 12 anos de experiência no varejo, estou em um novo desafio profissional na área de tecnologia. Possuo conhecimentos em **HTML, CSS, JavaScript, Python, SQL e Mobile**, além de interesse em aprender continuamente.
+- **Linguagens de Programação**:
+  - HTML
+  - CSS
+  - JavaScript
+  - Dart
+  - Java
+  - Python
+- **Frameworks**:
+  - Flutter
+  - Insomnia
+  - Android Studio
+  - VS Code
+  - Intelij
+  
+## 📂 Estrutura do Projeto
 
-### 🌐 Idiomas
-- **Português**: Nativo  
-- **Inglês**: A2  
-- **Japonês**: N4  
-- **Espanhol**: Básico  
-Com certificações que validam meu aprendizado!
+### 1. **Página Inicial**
+- Apresenta informações sobre mim, minhas habilidades e projetos.
+- Inclui links para o [LinkedIn](https://www.linkedin.com/in/cryslaine-gomes-pereira-318ab61b6/) e [GitHub](https://github.com/CryslaineGomes).
 
----
+### 2. **Projetos**
+- **App Espada**: Marcador de pontos para jogo de cartas, desenvolvido em Dart.
+- **App Jogo Snake**: O clássico jogo da cobrinha, desenvolvido em Dart.
+- **Projeto Previsão do Tempo**: Projeto com HTML, CSS e JS que consome uma API de previsão do tempo.
+- **Projeto Lista de Tarefas**: Aplicação de lista de tarefas, desenvolvida com HTML, CSS e JS.
 
-## 🖥️ Tecnologias
+### 3. **Currículo**
+- Disponível para download diretamente do site.
 
-- **Front-End**: HTML, CSS, JavaScript  
-- **Back-End**: Python, SQL  
-- **Ferramentas**: VS Code, Git, GitHub, Selenium, Cypress  
+### 4. **WhatsApp**
+- Botão flutuante de contato via WhatsApp para facilitar a comunicação.
 
----
+## 🧑‍💻 Habilidades
 
-## 💻 Projetos
+- **Quality Assurance (QA)**:
+  - Testes Manuais
+  - Testes Automatizados
+  - BDD (Behavior-Driven Development)
+  - Teste de APIs
 
-### 🔹 [Projeto Previsão do Tempo](https://cerulean-druid-96646a.netlify.app/)
-Aplicação desenvolvida com **HTML, CSS e JavaScript**, permitindo consultar a previsão do tempo de forma interativa.
+- **Desenvolvimento de Software**:
+  - Lógica de Programação
+  - Desenvolvimento Web e Mobile
 
-### 🔹 [Projeto To Do List](https://elegant-concha-079484.netlify.app/)
-Ferramenta para gerenciamento de tarefas, criada com **HTML, CSS e JavaScript**.
+## 📥 Como Executar o Projeto
 
----
+### 1. Baixe ou clone o repositório:
 
-## 🚀 Visão do Portfólio
+```bash
+git clone https://github.com/CryslaineGomes/cryslaine-qa-dev.git
 
-![Captura de Tela do Portfólio](link-da-imagem-de-preview)
-
-Este portfólio foi desenvolvido com **HTML** e **CSS**, e conta com recursos responsivos para oferecer uma experiência agradável em qualquer dispositivo.
-
----
-
-## 📫 Contato
-
-Você pode entrar em contato comigo pelos seguintes canais:
-
-- **LinkedIn**: [Cryslaine Pereira](https://www.linkedin.com/in/cryslaine-gomes-pereira-318ab61b6/)  
-- **GitHub**: [CryslaineGomes](https://github.com/CryslaineGomes)  
-
----
-
-### ✨ Inspiração
-
-Este portfólio reflete meu desejo de crescer na área de tecnologia e demonstrar meu comprometimento com a transição de carreira. Acompanhe minha evolução!
-
----
-
-### ⚙️ Como rodar localmente?
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/CryslaineGomes/meu-portfolio.git
