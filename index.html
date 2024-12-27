@@ -33,24 +33,24 @@
 
         .cover-photo {
             width: 100%;
-            height: 250px;
+            height: 200px;
             object-fit: cover;
         }
 
         .profile-picture {
             position: absolute;
-            top: 180px;
+            top: 140px;
             left: 50%;
             transform: translateX(-50%);
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
+            width: 120px;
+            height: 120px;
             border: 4px solid #0D1117;
             background-color: #0D1117;
         }
 
         .header-links {
-            margin-top: 100px;
+            margin-top: 80px;
         }
 
         .round-button {
@@ -118,13 +118,13 @@
         /* Estilos para o botão flutuante do WhatsApp */
         .whatsapp-floating {
             position: fixed;
-            bottom: 20px;
+            bottom: 80px; /* Ajustado para subir */
             right: 20px;
             z-index: 1000;
         }
 
         .whatsapp-floating a {
-            background-color: #238636; /* Cor igual aos botões de download e LinkedIn */
+            background-color: #238636;
             width: 60px;
             height: 60px;
             display: flex;
@@ -137,7 +137,7 @@
         }
 
         .whatsapp-floating a:hover {
-            background-color: #2EA043; /* Cor de hover igual aos outros botões */
+            background-color: #2EA043;
         }
     </style>
 </head>
@@ -161,14 +161,14 @@
         <h2>Projetos</h2>
         <div class="carousel-container">
             <div class="card">
-                <h3>App Espada</h3>
-                <p>Marcador de pontos para jogo cartas de baralho (Espada), desenvolvido em linguagem Dart.</p>
-                <a href="Espada.apk" download class="round-button">Baixar APK</a>
-            </div>
-            <div class="card">
                 <h3>App Jogo Snake</h3>
                 <p>Tradicional jogo da cobrinha, desenvolvido em linguagem Dart.</p>
                 <a href="app-release.apk" download class="round-button">Baixar APK</a>
+            </div>
+            <div class="card">
+                <h3>App Espada</h3>
+                <p>Marcador de pontos para jogo cartas de baralho (Espada), desenvolvido em linguagem Dart.</p>
+                <a href="Espada.apk" download class="round-button">Baixar APK</a>
             </div>
             <div class="card">
                 <h3>Projeto Previsão do Tempo</h3>
