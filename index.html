@@ -124,19 +124,23 @@
         }
 
         .whatsapp-floating a {
-            background-color: #25D366;
-            padding: 15px;
-            border-radius: 50%;
-            color: white;
-            font-size: 24px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-            transition: all 0.3s ease;
-        }
+    background-color: #25D366;
+    width: 60px; /* Dimensão fixa para evitar distorções */
+    height: 60px; /* Dimensão fixa para evitar distorções */
+    display: flex; /* Centraliza o ícone */
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Torna o botão completamente circular */
+    color: white;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(37, 211, 102, 0.6); /* Sombra com tom verde */
+    transition: all 0.3s ease;
+}
 
-        .whatsapp-floating a:hover {
-            background-color: #128C7E;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-        }
+.whatsapp-floating a:hover {
+    background-color: #128C7E;
+    box-shadow: 0 6px 12px rgba(37, 211, 102, 0.8); /* Intensifica a sombra no hover */
+}
     </style>
 </head>
 <body>
